@@ -1,4 +1,4 @@
-print("hello world\n"*4, "I love python\n"*4)
+print("hello world\n"*4, "I love python\n"*4, sep='')
 
 
 month = int(input("Please enter number of the month: "))
