@@ -1,7 +1,7 @@
 total = 0
 
 while True:
-    string = int(input("How old is each member of the family?: "))
+    string = int(input("How old is each member of the family? When you are done put 0: "))
     if string == 0:
         print(total)
         break
