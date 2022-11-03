@@ -33,6 +33,8 @@ print(dict)
 
 
 
-d3 = sorted((value, index) for index, value in enumerate(users))
+idxs = list(range(len(users)))
+d3 = sorted((value, index) for index, value in enumerate(users, idxs))
+
 
 print(d3)

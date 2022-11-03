@@ -19,8 +19,11 @@ brand['number_stores'] = 2
 print(brand)
 
 
-''' 4. Print a sentence that explains who Zaras clients are.
-5. Add a key called country_creation with a value of Spain.'''
+''' 4. Print a sentence that explains who Zaras clients are.'''
+
+print(','.join(brand['type_of_clothes']))
+
+'''5. Add a key called country_creation with a value of Spain.'''
 
 brand['country_creation'] = 'Spain'
 print(brand)
