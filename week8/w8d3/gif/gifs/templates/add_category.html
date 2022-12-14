@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %} Add Category {% endblock title %}
+{% block content %}
+<form action="{% url 'add_category' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+{% endblock content %}
+
+</html>

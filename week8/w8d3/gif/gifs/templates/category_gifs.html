@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock title %}
+{% block content %}
+<ul>
+    {% for gif in gifs %}
+    <li>
+        {{gif.uploader_name}}
+        {{gif.title}}
+        <img src="{{ gif.url }}" alt="gif">
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
+
+</html>

@@ -1,0 +1,10 @@
+{% block navbar %}
+<header>
+    <nav>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="{% url 'add_gif' %}">Add Gif</a>
+        <a href="{% url 'add_category' %}">Add Category</a>
+        <a href="{% url 'categories' %}">Categories</a>
+    </nav>
+</header>
+{% endblock %}
